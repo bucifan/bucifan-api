@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var osusched = require('./routes/osusched');
+var osuGameRoute = require('./routes/osugames');
+var osuRosterRoute = require('./routes/osuroster');
 var testroute = require('./routes/testroute');
 
 var app = express();
@@ -26,7 +27,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/osusched', osusched);
+app.use('/osugames', osuGameRoute);
+app.use('/osuroster', osuRosterRoute);
 app.use('/test', testroute);
 
 // catch 404 and forward to error handler
