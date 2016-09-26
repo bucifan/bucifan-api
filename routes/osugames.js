@@ -63,7 +63,7 @@ router.get('/', function(req, res, next) {
       Opp: "Penn State",
       Start: "noon",
       OppShort: "PSU",
-      Himg: "penn_st.png",
+      Himg: "penn_st1.png",
       OSUScore: 0,
       OppScore: 0,
       loc: "A"
@@ -98,7 +98,7 @@ router.get('/', function(req, res, next) {
       date: "11/19",
       Opp: "Michigan St",
       OppShort: "MSU",
-      Himg: "michigan_st.png",
+      Himg: "michigan_st1.png",
       Start: "noon",
       OSUScore: 0,
       OppScore: 0,
