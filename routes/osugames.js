@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 77,
       OppScore: 10,
-      loc: H
+      loc: "H"
     }, {
       date: "09/10",
       Opp: "Tulsa",
@@ -21,7 +21,7 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 48,
       OppScore: 3,
-      loc: H
+      loc: "H"
     }, {
       date: "09/17",
       Opp: "Oklahoma",
@@ -30,16 +30,16 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 45,
       OppScore: 24,
-      loc: A
+      loc: "A"
     },{ 
       date: "10/01",
       Opp: "Rutgers",
       OppShort: "RTG",
-      Himg: "Rutgers1.png"
+      Himg: "Rutgers1.png",
       Start: "noon",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "H"
     },{ 
       date: "10/08",
       Opp: "Indiana",
@@ -48,7 +48,7 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "H"
     },{ 
       date: "10/15",
       Opp: "Wisconsin",
@@ -57,7 +57,7 @@ router.get('/', function(req, res, next) {
       Start: "8pm",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "H"
     },{ 
       date: "10/22",
       Opp: "Penn State",
@@ -66,7 +66,7 @@ router.get('/', function(req, res, next) {
       Himg: "penn_st.png",
       OSUScore: 0,
       OppScore: 0,
-      loc: A
+      loc: "A"
     },{ 
       date: "10/29",
       Opp: "Northwestern",
@@ -75,7 +75,7 @@ router.get('/', function(req, res, next) {
       Start: "5:30pm",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "H"
     },{ 
       date: "11/05",
       Opp: "Nebraska",
@@ -84,7 +84,7 @@ router.get('/', function(req, res, next) {
       Start: "8pm",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "H"
     },{ 
       date: "11/12",
       Opp: "Maryland",
@@ -93,7 +93,7 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 0,
       OppScore: 0,
-      loc: A
+      loc: "A"
     },{ 
       date: "11/19",
       Opp: "Michigan St",
@@ -102,7 +102,7 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 0,
       OppScore: 0,
-      loc: A
+      loc: "A"
     },{ 
       date: "11/26",
       Opp: "TTUN",
@@ -111,7 +111,7 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "H"
     },{ 
       date: "12/02",
       Opp: "Big Ten Championship",
@@ -119,7 +119,7 @@ router.get('/', function(req, res, next) {
       OppShort: "BTC",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "N"
     },{ 
       date: "12/31",
       Opp: "Bowl Game",
@@ -127,7 +127,7 @@ router.get('/', function(req, res, next) {
       Start: "8pm",
       OSUScore: 0,
       OppScore: 0,
-      loc: H
+      loc: "N"
     }]
   };
   res.json(gameJson);
