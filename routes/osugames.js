@@ -114,7 +114,7 @@ router.get('/', function(req, res, next) {
       loc: "H"
     },{ 
       date: "12/02",
-      Opp: "Big Ten Championship",
+      Opp: "Championship",
       Start: "8pm",
       OppShort: "BTC",
       Himg: "th.png",
