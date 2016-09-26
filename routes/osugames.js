@@ -117,6 +117,7 @@ router.get('/', function(req, res, next) {
       Opp: "Big Ten Championship",
       Start: "8pm",
       OppShort: "BTC",
+      Himg: "th.png",
       OSUScore: 0,
       OppScore: 0,
       loc: "N"
