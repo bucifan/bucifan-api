@@ -37,7 +37,7 @@ router.get('/', function(req, res, next) {
       OppShort: "RTG",
       Himg: "Rutgers1.png",
       Start: "noon",
-      OSUScore: 0,
+      OSUScore: 58,
       OppScore: 0,
       loc: "H"
     },{ 
