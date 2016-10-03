@@ -12,7 +12,13 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 77,
       OppScore: 10,
-      loc: "H"
+      loc: "H",
+      tyards: 776,
+      pyards: 417,
+      ryards:359,
+      ypp: 8.3,
+      ygivenup:224,
+      mynotes: ""
     }, {
       date: "09/10",
       Opp: "Tulsa",
@@ -21,7 +27,13 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 48,
       OppScore: 3,
-      loc: "H"
+      loc: "H",
+      tyards: 417,
+      pyards: 148,
+      ryards:269,
+      ypp: 6.0,
+      ygivenup:188,
+      mynotes: ""
     }, {
       date: "09/17",
       Opp: "Oklahoma",
@@ -30,7 +42,13 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 45,
       OppScore: 24,
-      loc: "A"
+      loc: "A",
+      tyards: 443,
+      pyards: 152,
+      ryards:291,
+      ypp: 6.5,
+      ygivenup:403,
+      mynotes: "My 50th party.  Noah Brown celebrated for me.  He had 4 TD's including catch behind the defenders back"
     },{ 
       date: "10/01",
       Opp: "Rutgers",
@@ -39,7 +57,13 @@ router.get('/', function(req, res, next) {
       Start: "noon",
       OSUScore: 58,
       OppScore: 0,
-      loc: "H"
+      loc: "H",
+      tyards: 669,
+      pyards: 259,
+      ryards:410,
+      ypp: 7.5,
+      ygivenup:116,
+      mynotes: ""
     },{ 
       date: "10/08",
       Opp: "Indiana",
