@@ -70,9 +70,15 @@ router.get('/', function(req, res, next) {
       OppShort: "Ind",
       Himg: "Indiana1.png",
       Start: "3:30",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "H"
+      OSUScore: 38,
+      OppScore: 17,
+      loc: "H",
+      tyards: 383,
+      pyards: 93,
+      ryards:290,
+      ypp: 5.4,
+      ygivenup:281,
+      mynotes: "U-G-L-Y passing game.  But the rushing game worked. Too much talent overall for the Hoosiers to keep up."
     },{ 
       date: "10/15",
       Opp: "Wisconsin",
