@@ -85,9 +85,15 @@ router.get('/', function(req, res, next) {
       OppShort: "WSC",
       Himg: "Wisconsin1.png",
       Start: "8pm",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "H"
+      OSUScore: 30,
+      OppScore: 23,
+      loc: "H",
+      tyards: 411,
+      pyards: 226,
+      ryards:185,
+      ypp: 5.6,
+      ygivenup:450,
+      mynotes: "Game went into OT. Passing game struggled and defense seemed to let them run up and down the field.  But in the end JT got it done."
     },{ 
       date: "10/22",
       Opp: "Penn State",
@@ -102,7 +108,7 @@ router.get('/', function(req, res, next) {
       Opp: "Northwestern",
       OppShort: "NW",
       Himg: "Northwestern1.png",
-      Start: "5:30pm",
+      Start: "3:30pm",
       OSUScore: 0,
       OppScore: 0,
       loc: "H"
