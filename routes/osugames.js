@@ -97,7 +97,7 @@ router.get('/', function(req, res, next) {
     },{ 
       date: "10/22",
       Opp: "Penn State",
-      Start: "noon",
+      Start: "8pm",
       OppShort: "PSU",
       Himg: "penn_st1.png",
       OSUScore: 0,
