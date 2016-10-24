@@ -100,9 +100,10 @@ router.get('/', function(req, res, next) {
       Start: "8pm",
       OppShort: "PSU",
       Himg: "penn_st1.png",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "A"
+      OSUScore: 21,
+      OppScore: 24,
+      loc: "A",
+      mynotes: "Blocked punt = FG. Blocked FG returned for TD.  We struggled on Offense whole game.  "
     },{ 
       date: "10/29",
       Opp: "Northwestern",
