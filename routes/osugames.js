@@ -110,9 +110,15 @@ router.get('/', function(req, res, next) {
       OppShort: "NW",
       Himg: "Northwestern1.png",
       Start: "3:30pm",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "H"
+      OSUScore: 24,
+      OppScore: 20,
+      loc: "H",
+      tyards: 431,
+      pyards: 223,
+      ryards:208,
+      ypp: 5.6,
+      ygivenup:406,
+      mynotes: "Never quite seemed to dominate like we think we should.  Northwestern out coached us - called good plays at key times.  We simply won by having more overall talent."
     },{ 
       date: "11/05",
       Opp: "Nebraska",
