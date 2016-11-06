@@ -125,9 +125,15 @@ router.get('/', function(req, res, next) {
       OppShort: "NB",
       Himg: "Nebraska1.png",
       Start: "8pm",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "H"
+      OSUScore: 62,
+      OppScore: 3,
+      loc: "H",
+      tyards: 590,
+      pyards: 352,
+      ryards:238,
+      ypp: 6.9,
+      ygivenup:204,
+      mynotes: "Wow didn't see this coming! We dominated.  Eileen and I went to the game, beautiful night - way up in C deck, highest I have ever sat"
     },{ 
       date: "11/12",
       Opp: "Maryland",
