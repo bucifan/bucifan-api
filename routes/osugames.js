@@ -142,7 +142,7 @@ router.get('/', function(req, res, next) {
       Opp: "Maryland",
       OppShort: "MD",
       Himg: "Maryland1.png",
-      Start: "noon",
+      Start: "3:30pm",
       OSUScore: 0,
       OppScore: 0,
       loc: "A"
