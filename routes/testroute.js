@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 router.get('/', function(req, res, next) {
-  var smbb-resp = {
+  var smbbresp = {
         name: "St. Matthew 8 Grade BasketBall Data",
         games: [
               {date:"11/1", Opp:"Bowling Green", Loc:"Home", OppScore:0, SMScore:0, 
@@ -30,7 +30,7 @@ router.get('/', function(req, res, next) {
               }
             ]
     };
-  res.json(smbb-resp );
+  res.json(smbbresp );
 });
 
 module.exports = router;
