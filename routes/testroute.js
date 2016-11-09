@@ -1,19 +1,36 @@
 var express = require('express');
 var router = express.Router();
-
-/* GET users listing. */
 router.get('/', function(req, res, next) {
-  //res.send('my test route');
-  var testjson = {Test: "test"};
-  var testsched = {
-        name: "OSU Schedule",
-        y2016: [
-              {date:"09/03", Opp:"Bowling Green", OppShort: "BG"},
-              {date:"09/10", Opp:"Tulsa", OppShort: "Tulsa"},
-              {date:"09/17", Opp:"Oklahoma", OppShort: "Okl"}
+  var smbb-resp = {
+        name: "St. Matthew 8 Grade BasketBall Data",
+        games: [
+              {date:"11/1", Opp:"Bowling Green", Loc:"Home", OppScore:0, SMScore:0, 
+                MikeyStat:{
+                  points:0,
+                  rebounds:0,
+                  steals:0,
+                  notes:""
+                }
+              },
+              {date:"11/2", Opp:"Bowling Green", Loc:"Home", OppScore:0, SMScore:0, 
+                MikeyStat:{
+                  points:0,
+                  rebounds:0,
+                  steals:0,
+                  notes:""
+                }
+              },
+              {date:"11/3", Opp:"Bowling Green", Loc:"Home", OppScore:0, SMScore:0, 
+                MikeyStat:{
+                  points:0,
+                  rebounds:0,
+                  steals:0,
+                  notes:""
+                }
+              }
             ]
     };
-  res.json(testsched);
+  res.json(smbb-resp );
 });
 
 module.exports = router;

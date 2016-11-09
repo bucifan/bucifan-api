@@ -10,6 +10,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var osuGameRoute = require('./routes/osugames');
 var osuRosterRoute = require('./routes/osuroster');
+var smbb = require('./routes/smbb');
 var testroute = require('./routes/testroute');
 
 var app = express();
@@ -31,6 +32,7 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/osugames', osuGameRoute);
 app.use('/osuroster', osuRosterRoute);
+app.use('/smbb', smbb);
 app.use('/test', testroute);
 
 // catch 404 and forward to error handler
