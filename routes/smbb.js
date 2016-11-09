@@ -8,7 +8,7 @@ var smbbresp = {
         players:[
             {id:"Mikey", name:"Mikey Roach", num:23, height:"5.10", pic: "", pos:"G", mom:"Eileen", dad: "Rob"},
             {id:"WillH", name:"Will Hast", num:23, height:"6.0", pic: "", pos:"F/C", mom:"Megan", dad: "Jeff"},
-            {id:"WillM", name:"Will Miller", num:23, height:"6.1", pic: "", po:="G/F/C", mom:"", dad: "Jeff"},
+            {id:"WillM", name:"Will Miller", num:23, height:"6.1", pic: "", po:"G/F/C", mom:"", dad: "Jeff"},
             {id:"Corey", name:"Corey Moriarty", num:23, height:"5.11", pic: "", pos:"G", mom:"Jody", dad: "Patrick"},
             {id:"Ako", name:"Akaolisa Nwokolo", num:23, height:"5.11", pic: "", pos:"F", mom:"", dad: ""},
             {id:"John", name:"John Sands", num:23, height:"5.11", pic: "", pos:"F", mom:"", dad: ""},
