@@ -143,9 +143,15 @@ router.get('/', function(req, res, next) {
       OppShort: "MD",
       Himg: "Maryland1.png",
       Start: "3:30pm",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "A"
+      OSUScore: 62,
+      OppScore: 3,
+      loc: "A",
+      tyards: 581,
+      pyards: 328,
+      ryards:253,
+      ypp: 7.4,
+      ygivenup:176,
+      mynotes: "Maryland never in the game. "
     },{ 
       date: "11/19",
       Opp: "Michigan St",
