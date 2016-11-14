@@ -4,9 +4,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   var gameJson = {
     name: "OSU Schedule",
-    curAP:6,
-    curCoaches: 5,
-    curCFP: 6,
+    curAP:2,
+    curCoaches: 2,
+    curCFP: 2,
     y2016: [{
       date: "09/03",
       Opp: "Bowling Green",
