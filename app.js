@@ -10,6 +10,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var osuGameRoute = require('./routes/osugames');
 var osuRosterRoute = require('./routes/osuroster');
+var osuBBRoute = require('./routes/osubb');
 var smbb = require('./routes/smbb');
 var testroute = require('./routes/testroute');
 
@@ -31,6 +32,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/osugames', osuGameRoute);
+app.use('/osubb', osuBBRoute);
 app.use('/osuroster', osuRosterRoute);
 app.use('/smbb', smbb);
 app.use('/test', testroute);
