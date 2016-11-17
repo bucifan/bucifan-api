@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
         games: [
               {date:"11/11", Time:"", TV:"", Opp:"Navy", Loc: "Away", OppNH:"Midshipmen", OppShort: "Navy", BTG:0, OppScore:68, OSUScore:78, OppRank:0, OSURank:0},
               {date:"11/14", Time:"", TV:"", Opp:"North Carolina Central", Loc: "Home", OppNH:"Eagles", OppShort: "NCC", BTG:0, OppScore:63, OSUScore:69, OppRank:0, OSURank:0},
-              {date:"11/17", Time:"", TV:"", Opp:"Providence", Loc: "Home", OppNH:"Fryers", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
-              {date:"11/21", Time:"", TV:"", Opp:"Western Carolina", Loc: "Home", OppNH:"", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
-              {date:"11/23", Time:"", TV:"", Opp:"Jackson State", Loc: "Home", OppNH:"", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
+              {date:"11/17", Time:"7pm", TV:"btn", Opp:"Providence", Loc: "Home", OppNH:"Fryers", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
+              {date:"11/21", Time:"7pm", TV:"btn", Opp:"Western Carolina", Loc: "Home", OppNH:"", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
+              {date:"11/23", Time:"7pm", TV:"espn3", Opp:"Jackson State", Loc: "Home", OppNH:"", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"11/25", Time:"", TV:"", Opp:"Marshall", Loc: "Home", OppNH:"", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"11/30", Time:"", TV:"", Opp:"Virginia", Loc: "Away", OppNH:"", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"12/3", Time:"", TV:"", Opp:"Fairly Dickinson", Loc: "Home", OppNH:"", OppShort: "", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
