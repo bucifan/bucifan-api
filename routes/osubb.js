@@ -5,7 +5,7 @@ router.get('/', function(req, res, next) {
         name: "OSU BasketBall Data",
         games: [
               {date:"11/11", Time:"", TV:"", Opp:"Navy",  OppImage: "navy-sm.png", Loc: "Away", OppNH:"Midshipmen", OppShort: "Navy", BTG:0, OppScore:68, OSUScore:78, OppRank:0, OSURank:0},
-              {date:"11/14", Time:"", TV:"", Opp:"North Carolina Central",  OppImage: "nccu-sm.png", Loc: "Home", OppNH:"Eagles", OppShort: "NCC", BTG:0, OppScore:63, OSUScore:69, OppRank:0, OSURank:0},
+              {date:"11/14", Time:"", TV:"", Opp:"North Carolina Cntrl",  OppImage: "nccu-sm.png", Loc: "Home", OppNH:"Eagles", OppShort: "NCC", BTG:0, OppScore:63, OSUScore:69, OppRank:0, OSURank:0},
               {date:"11/17", Time:"7 pm ", TV:"btn", Opp:"Providence",  OppImage: "prov-sm.png", Loc: "Home", OppNH:"Fryers", OppShort: "PRD", BTG:0, OppScore:67, OSUScore:72, OppRank:0, OSURank:0},
               {date:"11/21", Time:"7 pm ", TV:"btn", Opp:"Western Carolina",  OppImage: "wcar-sm.png", Loc: "Home", OppNH:"", OppShort: "WC", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"11/23", Time:"7 pm ", TV:"espn3", Opp:"Jackson State",  OppImage: "jast-sm.png", Loc: "Home", OppNH:"", OppShort: "JS", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
