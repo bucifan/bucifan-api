@@ -158,9 +158,15 @@ router.get('/', function(req, res, next) {
       OppShort: "MSU",
       Himg: "michigan_st1.png",
       Start: "noon",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "A"
+      OSUScore: 17,
+      OppScore: 16,
+      loc: "A",
+      tyards: 310,
+      pyards: 86,
+      ryards:224,
+      ypp: 4.6,
+      ygivenup:334,
+      mynotes: "UGHH!  Did not watch game - we went to Notre Dame game. "
     },{ 
       date: "11/26",
       Opp: "TTUN",
