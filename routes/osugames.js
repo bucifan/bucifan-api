@@ -173,13 +173,20 @@ router.get('/', function(req, res, next) {
       OppShort: "TTUN",
       Himg: "michigan1.png",
       Start: "noon",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "H"
+      OSUScore: 30,
+      OppScore: 27,
+      loc: "H",
+      tyards: 310,
+      pyards: 86,
+      ryards:224,
+      ypp: 4.6,
+      ygivenup:334,
+      mynotes: "Unbelievable! "
     },{ 
       date: "1/1",
       Opp: "Bowl Game",
       OppShort: "BWL",
+      Himg: "blankhel.png",
       Start: "8pm",
       OSUScore: 0,
       OppScore: 0,
