@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
               {date:"11/17", Time:"7 pm ", TV:"btn", Opp:"Providence",  OppImage: "prov-sm.png", Loc: "Home", OppNH:"Fryers", OppShort: "PRD", BTG:0, OppScore:67, OSUScore:72, OppRank:0, OSURank:0},
               {date:"11/21", Time:"7 pm ", TV:"btn", Opp:"Western Carolina",  OppImage: "wcar-sm.png", Loc: "Home", OppNH:"WC", OppShort: "WC", BTG:0, OppScore:38, OSUScore:66, OppRank:0, OSURank:0},
               {date:"11/23", Time:"7 pm ", TV:"espn3", Opp:"Jackson State",  OppImage: "jast-sm.png", Loc: "Home", OppNH:"", OppShort: "JS", BTG:0, OppScore:47, OSUScore:78, OppRank:0, OSURank:0},
-              {date:"11/25", Time:"7 pm ", TV:"btn", Opp:"Marshall",  OppImage: "mars-sm.png", Loc: "Home", OppNH:"", OppShort: "MSH", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
+              {date:"11/25", Time:"7 pm ", TV:"btn", Opp:"Marshall",  OppImage: "mars-sm.png", Loc: "Home", OppNH:"", OppShort: "MSH", BTG:0, OppScore:70, OSUScore:111, OppRank:0, OSURank:0},
               {date:"11/30", Time:"9 pm ", TV:"espn2", Opp:"Virginia",  OppImage: "va-sm.png", Loc: "Away", OppNH:"", OppShort: "VGA", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"12/3", Time:"4:30 pm ", TV:"", Opp:"Fairly Dickinson",  OppImage: "flei-sm.png", Loc: "Home", OppNH:"", OppShort: "FD", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"12/6", Time:"7 pm ", TV:"espn3", Opp:"Florida Atlanic",  OppImage: "fau-sm.png", Loc: "Home", OppNH:"", OppShort: "FA", BTG:0, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
