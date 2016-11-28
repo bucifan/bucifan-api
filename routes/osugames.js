@@ -177,16 +177,7 @@ router.get('/', function(req, res, next) {
       OppScore: 0,
       loc: "H"
     },{ 
-      date: "12/02",
-      Opp: "Championship",
-      Start: "8pm",
-      OppShort: "BTC",
-      Himg: "th.png",
-      OSUScore: 0,
-      OppScore: 0,
-      loc: "N"
-    },{ 
-      date: "12/31",
+      date: "1/1",
       Opp: "Bowl Game",
       OppShort: "BWL",
       Start: "8pm",
