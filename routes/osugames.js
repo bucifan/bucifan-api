@@ -183,10 +183,10 @@ router.get('/', function(req, res, next) {
       ygivenup:334,
       mynotes: "Unbelievable! "
     },{ 
-      date: "1/1",
-      Opp: "Bowl Game",
-      OppShort: "BWL",
-      Himg: "blankhel.png",
+      date: "12/31",
+      Opp: "Clemson",
+      OppShort: "Clm",
+      Himg: "fb.png",
       Start: "8pm",
       OSUScore: 0,
       OppScore: 0,
