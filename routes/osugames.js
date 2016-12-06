@@ -186,8 +186,8 @@ router.get('/', function(req, res, next) {
       date: "12/31",
       Opp: "Clemson",
       OppShort: "Clm",
-      Himg: "fb.png",
-      Start: "8pm",
+      Himg: "fiesta.jpg",
+      Start: "7pm",
       OSUScore: 0,
       OppScore: 0,
       loc: "N"
