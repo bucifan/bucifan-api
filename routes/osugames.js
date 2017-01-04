@@ -189,8 +189,9 @@ router.get('/', function(req, res, next) {
       Himg: "fiesta.png",
       Start: "7pm",
       OSUScore: 0,
-      OppScore: 0,
-      loc: "N"
+      OppScore: 31,
+      loc: "N",
+      mynotes: "One of the worst games ever!  Cannot believe an Urban Myer team would play this badly in a big game! Offense was terrible!"
     }]
   };
   res.json(gameJson);
