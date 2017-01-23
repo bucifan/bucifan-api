@@ -23,7 +23,7 @@ router.get('/', function(req, res, next) {
               {date:"1/12", Time:"7 pm ", TV:"espn", Opp:"Wisconsin",  OppImage: "wis-sm.png", Loc: "Away", OppNH:"Badgers", OppShort: "WISC", BTG:1, OppScore:89, OSUScore:66, OppRank:0, OSURank:0},
               {date:"1/15", Time:"1:30 pm  ", TV:"cbs", Opp:"Mich State",  OppImage: "msu-sm.png", Loc: "Home", OppNH:"Spartans", OppShort: "MSU", BTG:1, OppScore:67, OSUScore:72, OppRank:0, OSURank:0},
               {date:"1/18", Time:"9 pm ", TV:"btn", Opp:"Nebraska",  OppImage: "neb-sm.png", Loc: "Away", OppNH:"Corn Huskers", OppShort: "NEB", BTG:1, OppScore:66, OSUScore:67, OppRank:0, OSURank:0},
-              {date:"1/22", Time:"1 pm ", TV:"btn", Opp:"Northwestern",  OppImage: "nw-sm.png", Loc: "Home", OppNH:"Wildcats", OppShort: "NWN", BTG:1, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
+              {date:"1/22", Time:"1 pm ", TV:"btn", Opp:"Northwestern",  OppImage: "nw-sm.png", Loc: "Home", OppNH:"Wildcats", OppShort: "NWN", BTG:1, OppScore:74, OSUScore:72, OppRank:0, OSURank:0},
               {date:"1/25", Time:"7 pm ", TV:"btn", Opp:"Minnesota",  OppImage: "minn-sm.png", Loc: "Home", OppNH:"Gophers", OppShort: "MINN", BTG:1, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"1/28", Time:"8 pm ", TV:"espn", Opp:"Iowa",  OppImage: "iowa-sm.png", Loc: "Away", OppNH:"Hawkeyes", OppShort: "IOWA", BTG:1, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
               {date:"1/31", Time:"7 pm ", TV:"espn", Opp:"Maryland",  OppImage: "md-sm.png", Loc: "Home", OppNH:"Terapines", OppShort: "MD", BTG:1, OppScore:0, OSUScore:0, OppRank:0, OSURank:0},
