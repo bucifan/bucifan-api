@@ -171,7 +171,7 @@ router.get('/', function(req, res, next) {
       date: "11/18",
       Opp: "Illinios",
       OppShort: "Ill",
-      Himg: "Illinios1.png",
+      Himg: "Illinois1.png",
       Start: "tba",
       OSUScore: 0,
       OppScore: 0,
@@ -200,7 +200,7 @@ router.get('/', function(req, res, next) {
     },{ 
       date: "12/02",
       Opp: "Big 10 Championship",
-      OppShort: "",
+      OppShort: "Big10",
       Himg: "th.png",
       Start: "8pm",
       OSUScore: 0,
