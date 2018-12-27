@@ -37,7 +37,7 @@ app.use('/osubb', osuBBRoute);
 app.use('/osuroster', osuRosterRoute);
 app.use('/smbb', smbb);
 app.use('/test', testroute);
-app.use('/agl', awaylog);
+app.use('/agl', awayLog);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
