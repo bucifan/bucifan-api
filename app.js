@@ -12,6 +12,8 @@ var osuRosterRoute = require('./routes/osuroster');
 var osuBBRoute = require('./routes/osubb');
 var smbb = require('./routes/smbb');
 var testroute = require('./routes/testroute');
+var awayLog= require("./routes/awaylog")
+
 
 var app = express();
 app.use(cors());
@@ -35,6 +37,7 @@ app.use('/osubb', osuBBRoute);
 app.use('/osuroster', osuRosterRoute);
 app.use('/smbb', smbb);
 app.use('/test', testroute);
+app.use('/agl', awaylog);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
