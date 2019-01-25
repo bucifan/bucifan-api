@@ -1,8 +1,5 @@
 var express = require('express');
 var router = express.Router();
-router.get('/', function(req, res, next) {
- var express = require('express');
-var router = express.Router();
 router.get('/:syear', function(req, res, next) {
   var rtnJSON = {"summary":"no year matched"};
   switch(req.params.syear){ 
@@ -24,9 +21,6 @@ router.get('/:syear', function(req, res, next) {
       break;
   }    
   res.json(rtnJSON);
-});
-
-module.exports = router;
 });
 
 module.exports = router;
