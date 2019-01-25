@@ -3,7 +3,7 @@ var router = express.Router();
 router.get('/:syear', function(req, res, next) {
   var rtnJSON =req.params;
   switch(req.params.syear){ 
-    case 2018:
+    case "2018":
       rtnJSON = {
         games: [
               {season:"1978", Opp:"Clemson", Bowl:"Gator", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, Comments: ""},
@@ -11,7 +11,7 @@ router.get('/:syear', function(req, res, next) {
             ]
         };
       break;
-    case 2017:
+    case "2017":
       rtnJSON = {
         games: [
               {season:"1978", Opp:"Clemson", Bowl:"Gator", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, Comments: ""},
