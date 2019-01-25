@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 router.get('/:syear', function(req, res, next) {
-  var rtnJSON = {"summary":"no year matched"};
+  var rtnJSON =req.params;
   switch(req.params.syear){ 
     case 2018:
       rtnJSON = {
