@@ -3,6 +3,70 @@ var router = express.Router();
 router.get('/:syear', function(req, res, next) {
   var rtnJSON ={"summary":"year not matched :" + req.params.syear};
   switch(req.params.syear){ 
+    case "2023":
+      rtnJSON = {
+        games: [
+    
+          ]
+        };
+    case "2022":
+      rtnJSON = {
+        games: [
+    
+          ]
+        };
+    case "2021":
+      rtnJSON = {
+        games: [
+          {GameDate: "9/4/2021",Loc:"A", Rank:"", Opp:"Minnesota", OppImage: "", OppShort: "MINN", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/11/2021",Loc:"H", Rank:"", Opp:"Oregon", OppImage: "", OppShort: "ORG", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/18/2021",Loc:"H", Rank:"", Opp:"Tulsa", OppImage: "", OppShort: "TUL", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/25/2021",Loc:"H", Rank:"", Opp:"Akron", OppImage: "", OppShort: "AKR", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/2/2021",Loc:"A", Rank:"", Opp:"Nebraska", OppImage: "", OppShort: "NEB", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/9/2021",Loc:"H", Rank:"", Opp:"Purdue", OppImage: "", OppShort: "PUR", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/23/2021",Loc:"A", Rank:"", Opp:"Rutgers", OppImage: "", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/30/2021",Loc:"H", Rank:"", Opp:"Michigan State", OppImage: "", OppShort: "MSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/6/2021",Loc:"A", Rank:"", Opp:"Indiana", OppImage: "", OppShort: "IND", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/13/2021",Loc:"H", Rank:"", Opp:"Maryland", OppImage: "", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/20/2021",Loc:"H", Rank:"", Opp:"Penn State", OppImage: "", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/27/2021",Loc:"A", Rank:"", Opp:"TTUN", OppImage: "", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
+          ]
+        };
+    case "2020":
+      rtnJSON = {
+        games: [
+          {GameDate: "9/5/2020",Loc:"H", Rank:"", Opp:"Bowling Green", OppImage: "", OppShort: "BGSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/12/2020",Loc:"A", Rank:"", Opp:"Oregon", OppImage: "", OppShort: "ORG", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/19/2020",Loc:"H", Rank:"", Opp:"Buffalo", OppImage: "", OppShort: "BUF", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/26/2020",Loc:"H", Rank:"", Opp:"Rutgers", OppImage: "", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/10/2020",Loc:"H", Rank:"", Opp:"Iowa", OppImage: "", OppShort: "IOWA", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/17/2020",Loc:"A", Rank:"", Opp:"Michigan State", OppImage: "", OppShort: "MSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/24/2020",Loc:"A", Rank:"", Opp:"Penn State", OppImage: "", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/31/2020",Loc:"H", Rank:"", Opp:"Nebraska", OppImage: "", OppShort: "NEB", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/7/2020",Loc:"H", Rank:"", Opp:"Indiana", OppImage: "", OppShort: "IND", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/14/2020",Loc:"A", Rank:"", Opp:"Maryland", OppImage: "", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/21/2020",Loc:"A", Rank:"", Opp:"Illinois", OppImage: "", OppShort: "ILL", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/28/2020",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
+          ]
+        };
+    case "2019":
+      rtnJSON = {
+        games: [
+          {GameDate: "8/31/2019",Loc:"H", Rank:"", Opp:"Florida Atlantic", OppImage: "", OppShort: "FA", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/7/2019",Loc:"H", Rank:"", Opp:"Cincinnati", OppImage: "", OppShort: "CIN", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/14/2019",Loc:"A", Rank:"", Opp:"Indiana", OppImage: "", OppShort: "IND", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/21/2019",Loc:"H", Rank:"", Opp:"Miami (OH)", OppImage: "", OppShort: "MI", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/28/2019",Loc:"A", Rank:"", Opp:"Nebraska", OppImage: "", OppShort: "NEB", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/5/2019",Loc:"H", Rank:"", Opp:"Michigan State", OppImage: "", OppShort: "MSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/19/2019",Loc:"A", Rank:"", Opp:"Northwestern", OppImage: "", OppShort: "NWU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/26/2019",Loc:"H", Rank:"", Opp:"Wisconsin", OppImage: "", OppShort: "WSC", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/9/2019",Loc:"H", Rank:"", Opp:"Maryland", OppImage: "", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/16/2019",Loc:"H", Rank:"", Opp:"Rutgers", OppImage: "", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/23/2019",Loc:"H", Rank:"", Opp:"Penn State", OppImage: "", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/30/2019",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
+          ]
+        };
+      break;
     case "2018":
       rtnJSON = {
         games: [
