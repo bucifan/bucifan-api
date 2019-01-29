@@ -9,12 +9,14 @@ router.get('/:syear', function(req, res, next) {
     
           ]
         };
+        break;
     case "2022":
       rtnJSON = {
         games: [
     
           ]
         };
+        break;
     case "2021":
       rtnJSON = {
         games: [
@@ -32,6 +34,7 @@ router.get('/:syear', function(req, res, next) {
           {GameDate: "11/27/2021",Loc:"A", Rank:"", Opp:"TTUN", OppImage: "", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
           ]
         };
+        break;
     case "2020":
       rtnJSON = {
         games: [
@@ -49,6 +52,7 @@ router.get('/:syear', function(req, res, next) {
           {GameDate: "11/28/2020",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
           ]
         };
+        break;
     case "2019":
       rtnJSON = {
         games: [
