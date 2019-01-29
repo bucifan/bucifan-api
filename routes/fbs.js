@@ -56,18 +56,18 @@ router.get('/:syear', function(req, res, next) {
     case "2019":
       rtnJSON = {
         games: [
-          {GameDate: "8/31/2019",Loc:"H", Rank:"", Opp:"Florida Atlantic", OppImage: "", OppShort: "FA", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "9/7/2019",Loc:"H", Rank:"", Opp:"Cincinnati", OppImage: "", OppShort: "CIN", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "9/14/2019",Loc:"A", Rank:"", Opp:"Indiana", OppImage: "", OppShort: "IND", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "8/31/2019",Loc:"H", Rank:"", Opp:"Florida Atlantic", OppImage: "florida_atlantic1.png", OppShort: "FA", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/7/2019",Loc:"H", Rank:"", Opp:"Cincinnati", OppImage: "cincinnati1.png", OppShort: "CIN", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/14/2019",Loc:"A", Rank:"", Opp:"Indiana", OppImage: "indiana1.png", OppShort: "IND", OppScore:0, OSUScore:0, comments:""},
           {GameDate: "9/21/2019",Loc:"H", Rank:"", Opp:"Miami (OH)", OppImage: "", OppShort: "MI", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "9/28/2019",Loc:"A", Rank:"", Opp:"Nebraska", OppImage: "", OppShort: "NEB", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "10/5/2019",Loc:"H", Rank:"", Opp:"Michigan State", OppImage: "", OppShort: "MSU", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "10/19/2019",Loc:"A", Rank:"", Opp:"Northwestern", OppImage: "", OppShort: "NWU", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "10/26/2019",Loc:"H", Rank:"", Opp:"Wisconsin", OppImage: "", OppShort: "WSC", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "11/9/2019",Loc:"H", Rank:"", Opp:"Maryland", OppImage: "", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "11/16/2019",Loc:"H", Rank:"", Opp:"Rutgers", OppImage: "", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "11/23/2019",Loc:"H", Rank:"", Opp:"Penn State", OppImage: "", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "11/30/2019",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
+          {GameDate: "9/28/2019",Loc:"A", Rank:"", Opp:"Nebraska", OppImage: "nebraska1.png", OppShort: "NEB", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/5/2019",Loc:"H", Rank:"", Opp:"Michigan State", OppImage: "michigan_st1.png", OppShort: "MSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/19/2019",Loc:"A", Rank:"", Opp:"Northwestern", OppImage: "northwestern1.png", OppShort: "NWU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/26/2019",Loc:"H", Rank:"", Opp:"Wisconsin", OppImage: "wisconsin1.png", OppShort: "WSC", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/9/2019",Loc:"H", Rank:"", Opp:"Maryland", OppImage: "maryland1.png", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/16/2019",Loc:"H", Rank:"", Opp:"Rutgers", OppImage: "rutgers1.png", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/23/2019",Loc:"H", Rank:"", Opp:"Penn State", OppImage: "penn_st1.png", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/30/2019",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "screwblueBrutusStompTSUN.gif", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
           ]
         };
       break;
