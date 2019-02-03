@@ -74,45 +74,47 @@ router.get('/:syear', function(req, res, next) {
     case "2018":
       rtnJSON = {
         games: [
-          {GameDate: "9/1/2018", Loc:"H", Opp:"Oregon State", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""}, 
-          {GameDate: "9/8/2018", Loc:"H", Opp:"Rutgers", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},	 
-          {GameDate: "9/15/2018", Loc:"Dallas TX", Opp:"Texas Christian", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},	 
-          {GameDate: "9/22/2018", Loc:"H", Opp:"Tulane", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},	 
-          {GameDate: "9/29/2018", Loc:"A", Opp:"Penn State", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},	 
-          {GameDate: "10/6/2018", Loc:"H", Opp:"Indiana", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},	 
-          {GameDate: "10/13/2018", Loc:"H", Opp:"Minnesota", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""}, 
-          {GameDate: "10/20/2018", Loc:"A", Opp:"Purdue",  OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""}, 
-          {GameDate: "11/3/2018", Loc:"H", Opp:"Nebraska", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},	 
-          {GameDate: "11/10/2018", Loc:"A", Opp:"Michigan State", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "11/17/2018", Loc:"A", Opp:"Maryland",  OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},	 
-          {GameDate: "11/24/2018", Loc:"H", Opp:"TTUN",  OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/1/2018", Loc:"H", Opp:"Oregon State", OppImage: "orgst.png", OppShort: "OSU", OppScore:31, OSUScore:77, comments:""}, 
+          {GameDate: "9/8/2018", Loc:"H", Opp:"Rutgers", OppImage: "rutgers.png", OppShort: "RUT", OppScore:3, OSUScore:52, comments:""},	 
+          {GameDate: "9/15/2018", Loc:"Dallas TX", Opp:"Texas Christian", OppImage: "tcu.png", OppShort: "TCU", OppScore:28, OSUScore:40, comments:""},	 
+          {GameDate: "9/22/2018", Loc:"H", Opp:"Tulane", OppImage: "tulane.png", OppShort: "TUL", OppScore:6, OSUScore:49, comments:""},	 
+          {GameDate: "9/29/2018", Loc:"A", Opp:"Penn State", OppImage: "pennsate.png", OppShort: "PSU", OppScore:26, OSUScore:27, comments:""},	 
+          {GameDate: "10/6/2018", Loc:"H", Opp:"Indiana", OppImage: "indiana.png", OppShort: "IND", OppScore:26, OSUScore:49, comments:""},	 
+          {GameDate: "10/13/2018", Loc:"H", Opp:"Minnesota", OppImage: "minnesota.png", OppShort: "MINN", OppScore:14, OSUScore:30, comments:""}, 
+          {GameDate: "10/20/2018", Loc:"A", Opp:"Purdue",  OppImage: "purdue.png", OppShort: "PUR", OppScore:49, OSUScore:20, comments:""}, 
+          {GameDate: "11/3/2018", Loc:"H", Opp:"Nebraska", OppImage: "nebraska.png", OppShort: "NEB", OppScore:31, OSUScore:36, comments:""},	 
+          {GameDate: "11/10/2018", Loc:"A", Opp:"Michigan State", OppImage: "michstate.png", OppShort: "MSU", OppScore:26, OSUScore:6, comments:""},
+          {GameDate: "11/17/2018", Loc:"A", Opp:"Maryland",  OppImage: "maryland.png", OppShort: "MD", OppScore:52, OSUScore:51, comments:"Went into OT - Mikey and I went to game"},	 
+          {GameDate: "11/24/2018", Loc:"H", Opp:"TTUN",  OppImage: "stomp.gif", OppShort: "TTUN", OppScore:39, OSUScore:62, comments:""},
+          {GameDate: "12/1/2018", Loc:"H", Opp:"Northwestern",  OppImage: "btc.png", OppShort: "TTUN", OppScore:24, OSUScore:45, comments:""},
+          {GameDate: "1/1/2019", Loc:"H", Opp:"Washington",  OppImage: "rosebowl.png", OppShort: "TTUN", OppScore:23, OSUScore:28, comments:"Rose Bowl"},
           ]
         };
       break;
     case "2017":
       rtnJSON = {
         games: [
-          {GameDate: "8/31/2017", Loc:"H", Rank:"2", Opp:"Indiana", OppImage: "ind-sm.png", OppShort: "IND", OppScore:49, OSUScore:21, comments:""},	 
-          {GameDate: "9/9/2017", Loc:"H", Rank:"2", OppRank:"5", Opp:"Oklahoma", OppImage: "ind-sm.png", OppShort: "CLEM", OppScore:31, OSUScore:16, comments:""},	 
-          {GameDate: "9/16/2017", Loc:"H", Rank:"8", Opp:"Army", OppImage: "ind-sm.png", OppShort: "Army", OppScore:7, OSUScore:38, comments:""},
-          {GameDate: "9/23/2017", Loc:"H", Rank:"10", Opp:"Nevada-Las Vegas", OppImage: "ind-sm.png", OppShort: "UNLV", OppScore:21, OSUScore:54, comments:""},	 
-          {GameDate: "9/30/2017", Loc:"A", Rank:"11", Opp:"Rutgers", OppImage: "ind-sm.png", OppShort: "RUT", OppScore:0, OSUScore:56, comments:""},	 
-          {GameDate: "10/7/2017", Loc:"H", Rank:"10", Opp:"Maryland", OppImage: "ind-sm.png", OppShort: "MAR", OppScore:14, OSUScore:62, comments:""},	 
-          {GameDate: "10/14/2017", Loc:"A", Rank:"9", Opp:"Nebraska", OppImage: "ind-sm.png", OppShort: "NEB", OppScore:14, OSUScore:56, comments:" went to game "},
-          {GameDate: "10/28/2017", Loc:"H", Rank:"6", OppRank:"2", Opp:"Penn State", OppImage: "ind-sm.png", OppShort: "PSU", OppScore:38, OSUScore:39, comments:""},	 
-          {GameDate: "11/4/2017", Loc:"A", Rank:"3", Opp:"Iowa", OppImage: "ind-sm.png", OppShort: "IOWA", OppScore:55, OSUScore:24, comments:""},
-          {GameDate: "11/11/2017", Loc:"H", Rank:"11", OppRank:"13", Opp:"Michigan State", OppImage: "ind-sm.png", OppShort: "MSU", OppScore:3, OSUScore:48, comments:""},	 
-          {GameDate: "11/18/2017", Loc:"H", Rank:"11", Opp:"Illinois", OppImage: "ind-sm.png", OppShort: "Ill", OppScore:14, OSUScore:52, comments:""}, 
-          {GameDate: "11/25/2017", Loc:"A", Rank:"8", Opp:"TTUN", OppImage: "ind-sm.png", OppShort: "TTUN", OppScore:20, OSUScore:31, comments:""}, 
-          {GameDate: "12/2/2017", Loc:"Indianapolois", Rank:"8", OppRank:"5", Opp:" Wisconsin", OppImage: "ind-sm.png", OppShort: "WISC", OppScore:21, OSUScore:27, comments:"Big Ten championship"},
-          {GameDate: "12/29/2017", Loc:"Dallas", Rank:"5", OppRank:"8", Opp:"Sothern Cal", OppImage: "ind-sm.png", OppShort: "USC", OppScore:7, OSUScore:24, comments:"Cotton Bowl"}
+          {GameDate: "8/31/2017", Loc:"H", Rank:"2", Opp:"Indiana", OppImage: "indiana.png", OppShort: "IND", OppScore:49, OSUScore:21, comments:""},	 
+          {GameDate: "9/9/2017", Loc:"H", Rank:"2", OppRank:"5", Opp:"Oklahoma", OppImage: "oklahoma.png", OppShort: "CLEM", OppScore:31, OSUScore:16, comments:""},	 
+          {GameDate: "9/16/2017", Loc:"H", Rank:"8", Opp:"Army", OppImage: "army.png", OppShort: "Army", OppScore:7, OSUScore:38, comments:""},
+          {GameDate: "9/23/2017", Loc:"H", Rank:"10", Opp:"Nevada-Las Vegas", OppImage: "unlv.png", OppShort: "UNLV", OppScore:21, OSUScore:54, comments:""},	 
+          {GameDate: "9/30/2017", Loc:"A", Rank:"11", Opp:"Rutgers", OppImage: "rutgers.png", OppShort: "RUT", OppScore:0, OSUScore:56, comments:""},	 
+          {GameDate: "10/7/2017", Loc:"H", Rank:"10", Opp:"Maryland", OppImage: "marland.png", OppShort: "MAR", OppScore:14, OSUScore:62, comments:""},	 
+          {GameDate: "10/14/2017", Loc:"A", Rank:"9", Opp:"Nebraska", OppImage: "nebraska.png", OppShort: "NEB", OppScore:14, OSUScore:56, comments:" went to game "},
+          {GameDate: "10/28/2017", Loc:"H", Rank:"6", OppRank:"2", Opp:"Penn State", OppImage: "pennsate.png", OppShort: "PSU", OppScore:38, OSUScore:39, comments:""},	 
+          {GameDate: "11/4/2017", Loc:"A", Rank:"3", Opp:"Iowa", OppImage: "iowa.png", OppShort: "IOWA", OppScore:55, OSUScore:24, comments:""},
+          {GameDate: "11/11/2017", Loc:"H", Rank:"11", OppRank:"13", Opp:"Michigan State", OppImage: "michState.png", OppShort: "MSU", OppScore:3, OSUScore:48, comments:""},	 
+          {GameDate: "11/18/2017", Loc:"H", Rank:"11", Opp:"Illinois", OppImage: "illinois.png", OppShort: "Ill", OppScore:14, OSUScore:52, comments:""}, 
+          {GameDate: "11/25/2017", Loc:"A", Rank:"8", Opp:"TTUN", OppImage: "stomp.gif", OppShort: "TTUN", OppScore:20, OSUScore:31, comments:""}, 
+          {GameDate: "12/2/2017", Loc:"Indianapolois", Rank:"8", OppRank:"5", Opp:" Wisconsin", OppImage: "btc.png", OppShort: "WISC", OppScore:21, OSUScore:27, comments:"Big Ten championship"},
+          {GameDate: "12/29/2017", Loc:"Dallas", Rank:"5", OppRank:"8", Opp:"Sothern Cal", OppImage: "cottonBowl.png", OppShort: "USC", OppScore:7, OSUScore:24, comments:"Cotton Bowl"}
         ]
         };
       break;
     case "2016":
       rtnJSON = {
         games: [
-          {GameDate: "9/3/2016",Loc:"H", Rank:"6", Opp:"Bowling Green", OppImage: "ind-sm.png", OppShort: "BGSU", OppScore:10, OSUScore:77, comments:""},	 
+          {GameDate: "9/3/2016",Loc:"H", Rank:"6", Opp:"Bowling Green", OppImage: "bgsu.png", OppShort: "BGSU", OppScore:10, OSUScore:77, comments:""},	 
           {GameDate: "9/10/2016",Loc:"H", Rank:"6", Opp:"Tulsa", OppImage: "ind-sm.png", OppShort: "Tulsa", OppScore:3, OSUScore:48, comments:""},	 
           {GameDate: "9/17/2016",Loc:"A", Rank:"3", OppRan:"14", Opp:"Oklahoma", OppImage: "ind-sm.png", OppShort: "OK", OppScore:24, OSUScore:45, comments:"went to game"},	 
           {GameDate: "10/1/2016",Loc:"H", Rank:"2", Opp:"Rutgers", OppImage: "ind-sm.png", OppShort: "RUT", OppScore:0, OSUScore:58, comments:""}, 
