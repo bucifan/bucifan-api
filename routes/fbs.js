@@ -114,19 +114,19 @@ router.get('/:syear', function(req, res, next) {
     case "2016":
       rtnJSON = {
         games: [
-          {GameDate: "9/3/2016",Loc:"H", Rank:"6", Opp:"Bowling Green", OppImage: "bgsu.png", OppShort: "BGSU", OppScore:10, OSUScore:77, comments:""},	 
-          {GameDate: "9/10/2016",Loc:"H", Rank:"6", Opp:"Tulsa", OppImage: "ind-sm.png", OppShort: "Tulsa", OppScore:3, OSUScore:48, comments:""},	 
-          {GameDate: "9/17/2016",Loc:"A", Rank:"3", OppRan:"14", Opp:"Oklahoma", OppImage: "ind-sm.png", OppShort: "OK", OppScore:24, OSUScore:45, comments:"went to game"},	 
-          {GameDate: "10/1/2016",Loc:"H", Rank:"2", Opp:"Rutgers", OppImage: "ind-sm.png", OppShort: "RUT", OppScore:0, OSUScore:58, comments:""}, 
-          {GameDate: "10/8/2016",Loc:"H", Rank:"2", Opp:"Indiana", OppImage: "ind-sm.png", OppShort: "IND", OppScore:17, OSUScore:38, comments:""}, 
-          {GameDate: "10/15/2016",Loc:"A", Rank:"2", OppRank:"8", Opp:"Wisconsin", OppImage: "ind-sm.png", OppShort: "WISC", OppScore:23, OSUScore:30, comments:"OT"}, 
-          {GameDate: "10/22/2016",Loc:"A", Rank:"2", Opp:"Penn State", OppImage: "ind-sm.png", OppShort: "PSU", OppScore:24, OSUScore:21, comments:""}, 
-          {GameDate: "10/29/2016",Loc:"H", Rank:"6", Opp:"Northwestern", OppImage: "ind-sm.png", OppShort: "NW", OppScore:20, OSUScore:24, comments:""}, 
-          {GameDate: "11/5/2016",Loc:"H", Rank:"6", Opp:"Nebraska", OppImage: "ind-sm.png", OppShort: "NEB", OppScore:3, OSUScore:62, comments:"went to game"}, 
-          {GameDate: "11/12/2016",Loc:"A", Rank:"6", Opp:"Maryland", OppImage: "ind-sm.png", OppShort: "MD", OppScore:3, OSUScore:62, comments:""}, 
-          {GameDate: "11/19/2016",Loc:"A", Rank:"2", Opp:"Michigan State", OppImage: "ind-sm.png", OppShort: "MSU", OppScore:16, OSUScore:17, comments:""}, 
-          {GameDate: "11/26/2016",Loc:"H", Rank:"2", OppRank:"3", Opp:"TTUN", OppImage: "ind-sm.png", OppShort: "TTUN", OppScore:27, OSUScore:30, comments:" 2 Overtimes"},	 
-          {GameDate: "12/31/2016",Loc:"Glendale Arizona", Rank:"3", OppRank:"2", Opp:"Clemson", OppImage: "ind-sm.png", OppShort: "IND", OppScore:31, OSUScore:0, comments:"Playoff Game"}
+          {GameDate: "9/3/2016",Loc:"H", Rank:"6", Opp:"Bowling Green", OppImage: "bowlinggreen.png", OppShort: "BGSU", OppScore:10, OSUScore:77, comments:""},	 
+          {GameDate: "9/10/2016",Loc:"H", Rank:"6", Opp:"Tulsa", OppImage: "tulsa.png", OppShort: "Tulsa", OppScore:3, OSUScore:48, comments:""},	 
+          {GameDate: "9/17/2016",Loc:"A", Rank:"3", OppRan:"14", Opp:"Oklahoma", OppImage: "oklahoma.png", OppShort: "OK", OppScore:24, OSUScore:45, comments:"went to game"},	 
+          {GameDate: "10/1/2016",Loc:"H", Rank:"2", Opp:"Rutgers", OppImage: "rutgers.png", OppShort: "RUT", OppScore:0, OSUScore:58, comments:""}, 
+          {GameDate: "10/8/2016",Loc:"H", Rank:"2", Opp:"Indiana", OppImage: "indiana.png", OppShort: "IND", OppScore:17, OSUScore:38, comments:""}, 
+          {GameDate: "10/15/2016",Loc:"A", Rank:"2", OppRank:"8", Opp:"Wisconsin", OppImage: "wisconsin.png", OppShort: "WISC", OppScore:23, OSUScore:30, comments:"OT"}, 
+          {GameDate: "10/22/2016",Loc:"A", Rank:"2", Opp:"Penn State", OppImage: "pennsate.png", OppShort: "PSU", OppScore:24, OSUScore:21, comments:""}, 
+          {GameDate: "10/29/2016",Loc:"H", Rank:"6", Opp:"Northwestern", OppImage: "northwestern.png", OppShort: "NW", OppScore:20, OSUScore:24, comments:""}, 
+          {GameDate: "11/5/2016",Loc:"H", Rank:"6", Opp:"Nebraska", OppImage: "nebraska.png", OppShort: "NEB", OppScore:3, OSUScore:62, comments:"went to game"}, 
+          {GameDate: "11/12/2016",Loc:"A", Rank:"6", Opp:"Maryland", OppImage: "maryland.png", OppShort: "MD", OppScore:3, OSUScore:62, comments:""}, 
+          {GameDate: "11/19/2016",Loc:"A", Rank:"2", Opp:"Michigan State", OppImage: "michState.png", OppShort: "MSU", OppScore:16, OSUScore:17, comments:""}, 
+          {GameDate: "11/26/2016",Loc:"H", Rank:"2", OppRank:"3", Opp:"TTUN", OppImage: "stomp.gif", OppShort: "TTUN", OppScore:27, OSUScore:30, comments:" 2 Overtimes"},	 
+          {GameDate: "12/31/2016",Loc:"Glendale Arizona", Rank:"3", OppRank:"2", Opp:"Clemson", OppImage: "fiestabowl.png", OppShort: "CLM", OppScore:31, OSUScore:0, comments:"Playoff Game"}
         ]
         };
       break;
