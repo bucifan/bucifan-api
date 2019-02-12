@@ -6,7 +6,16 @@ router.get('/:syear', function(req, res, next) {
     case "2023":
       rtnJSON = {
         games: [
-    
+          {GameDate: "9/2/2023",Loc:"H", Rank:"", Opp:"Indiana", OppImage: "indiana.png", OppShort: "IND", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "9/23/2023",Loc:"A", Rank:"", Opp:"Notre Dame", OppImage: "notredame.png", OppShort: "ND", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/7/2023",Loc:"A", Rank:"", Opp:"Maryland", OppImage: "maryland.png", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/14/2023",Loc:"H", Rank:"", Opp:"Purdue", OppImage: "purdue.png", OppShort: "PUR", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/21/2023",Loc:"H", Rank:"", Opp:"Penn State", OppImage: "pennsate.png", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "10/28/2023",Loc:"A", Rank:"", Opp:"Wisconsin", OppImage: "wisconsin.png", OppShort: "WSC", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/4/2023",Loc:"A", Rank:"", Opp:"Rutgers", OppImage: "rutgers.png", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/11/2023",Loc:"H", Rank:"", Opp:"Michigan State", OppImage: "michState.png", OppShort: "MSU", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/18/2023",Loc:"H", Rank:"", Opp:"Minnesota", OppImage: "minnesota.png", OppShort: "MINN", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "11/25/2023",Loc:"A", Rank:"", Opp:"TTUN", OppImage: "stomp.gif", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
           ]
         };
         break;
@@ -17,7 +26,13 @@ router.get('/:syear', function(req, res, next) {
            {GameDate: "9/17/2022",Loc:"H", Rank:"", Opp:"Toledo", OppImage: "toledo.png", OppShort: "TO", OppScore:0, OSUScore:0, comments:""},
            {GameDate: "9/24/2022",Loc:"A", Rank:"", Opp:"Michigan State", OppImage: "michState.png", OppShort: "MSU", OppScore:0, OSUScore:0, comments:""},
            {GameDate: "10/1/2022",Loc:"A", Rank:"", Opp:"Penn State", OppImage: "pennsate.png", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
-           
+           {GameDate: "10/8/2022",Loc:"H", Rank:"", Opp:"Rutgers", OppImage: "rutgers.png", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
+           {GameDate: "10/15/2022",Loc:"H", Rank:"", Opp:"Iowa", OppImage: "iowa.png", OppShort: "IOWA", OppScore:0, OSUScore:0, comments:""},
+           {GameDate: "10/29/2022",Loc:"H", Rank:"", Opp:"Indiana", OppImage: "indiana.png", OppShort: "IND", OppScore:0, OSUScore:0, comments:""},
+           {GameDate: "11/5/2022",Loc:"A", Rank:"", Opp:"Northwestern", OppImage: "northwestern.png", OppShort: "NWU", OppScore:0, OSUScore:0, comments:""},
+           {GameDate: "11/12/2022",Loc:"H", Rank:"", Opp:"Wisconsin", OppImage: "wisconsin.png", OppShort: "WSC", OppScore:0, OSUScore:0, comments:""},
+           {GameDate: "11/19/2022",Loc:"A", Rank:"", Opp:"Maryland", OppImage: "maryland.png", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
+           {GameDate: "11/26/2022",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "stomp.gif", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
           ]
         };
         break;
