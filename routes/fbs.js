@@ -86,7 +86,8 @@ router.get('/:syear', function(req, res, next) {
           {GameDate: "11/9/2019",Loc:"H", Rank:"", Opp:"Maryland", OppImage: "maryland.png", OppShort: "MD", OppScore:0, OSUScore:0, comments:""},
           {GameDate: "11/16/2019",Loc:"H", Rank:"", Opp:"Rutgers", OppImage: "rutgers.png", OppShort: "RUT", OppScore:0, OSUScore:0, comments:""},
           {GameDate: "11/23/2019",Loc:"H", Rank:"", Opp:"Penn State", OppImage: "pennsate.png", OppShort: "PSU", OppScore:0, OSUScore:0, comments:""},
-          {GameDate: "11/30/2019",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "stomp.gif", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""}
+          {GameDate: "11/30/2019",Loc:"H", Rank:"", Opp:"TTUN", OppImage: "stomp.gif", OppShort: "TTUN", OppScore:0, OSUScore:0, comments:""},
+          {GameDate: "12/7/2018", Loc:"A", Opp:"",  OppImage: "btc.png", OppShort: "", OppScore:0, OSUScore:0, comments:""}
           ]
         };
       break;
